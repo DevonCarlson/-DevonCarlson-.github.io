@@ -250,6 +250,7 @@ header nav ul li a{
 	height: -o-calc(100vh - 120px); /* opera */
 	height: -webkit-calc(100vh - 120px); /* google, safari */
 	height: -moz-calc(100vh - 120px); /* firefox */
+	
 }
 .section1-iner{
 	display:inline-block;
@@ -257,6 +258,10 @@ header nav ul li a{
 	line-height:normal;
 	width:100%;
 	float:none;
+    object-fit: contain;
+}
+
+}
 }
 .section1-left {
 	position: relative;
@@ -365,6 +370,10 @@ header nav ul li a{
 	vertical-align:top;
 	width:100%;
 	max-width:522px;
+	height: -webkit-calc(100vh - 200px);
+    object-fit: contain;
+}
+
 }
 @media (min-height:600px) and (max-height:799px){
 .section1-right img{
