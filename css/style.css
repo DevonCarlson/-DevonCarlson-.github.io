@@ -245,7 +245,7 @@ header nav ul li a{
 .section1 {
 	position: relative;
 	clear: both;
-	padding: 25px 0px 75px 0px;
+	padding: 25px 0px 85px 0px;
 	margin-top:100px;
 	height: -o-calc(100vh - 120px); /* opera */
 	height: -webkit-calc(100vh - 120px); /* google, safari */
@@ -260,17 +260,30 @@ header nav ul li a{
 }
 .section1-left {
 	position: relative;
-	padding-top:50px;
+	padding-top:20px;
 }
 .section1-left h1 {
 	text-align: left;
 	color: #53575a;
-	font-size: 70px;
+	font-size: 110px;
 	line-height:90px;
 	font-family: 'AvenirNextLTPro-Bold';
 	margin: 0px;
-	padding: 0px;
+	padding: 35px 0px 0px 0px;
 }
+
+.section1-left h2 {
+	text-align: left;
+	color: #53575a;
+	font-size: 20px;
+	line-height:35px;
+	font-family: 'AvenirNext-Medium';
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+
+
 @media (max-width:1600px){
 .section1-left h1 {
 	font-size:60px;
@@ -285,7 +298,7 @@ header nav ul li a{
 }
 .section1-left .contact{
 	position:relative;
-	margin-top:150px;
+	margin-top:50px;
 	max-width:600px;
 	padding-right:200px;
 }
