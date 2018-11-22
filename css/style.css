@@ -290,12 +290,20 @@ header nav ul li a{
 	line-height:80px;
 }
 }
+.section1-left h2 {
+	font-size:20px;
+	line-height:35px;
+}
+}
+
+
 @media (max-width:1440px){
 .section1-left h1 {
 	font-size:50px;
 	line-height:70px;
 }
 }
+
 .section1-left .contact{
 	position:relative;
 	margin-top:50px;
@@ -400,11 +408,19 @@ header nav ul li a{
 	display:inline-block;
 }
 .section1-left h1 {
-	font-size: 35px;
+	font-size: 40px;
 	line-height:50px;
 	text-align:center;
-	padding-bottom:50px;
+	padding-bottom:10px;
 }
+
+.section1-left h2 {
+	font-size: 20px;
+	line-height:30px;
+	text-align:center;
+	padding-bottom:40px;
+}
+
 .section1-right img{
 	max-width:272px;
 }
@@ -414,6 +430,12 @@ header nav ul li a{
 	font-size: 30px;
 }
 }
+
+.section1-left h2 {
+	font-size: 20px;
+}
+}
+
 /***### Section 2 ###***/
 .section2 {
 	position: relative;
