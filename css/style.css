@@ -111,7 +111,7 @@ section {
 
 
 #s1 {
-    background: url(../images/me.gif) no-repeat fixed center center;
+    background: url("https://i.imgur.com/QRrXUv1.gif") no-repeat fixed center center;
     background-size: cover;
 }
 
@@ -122,7 +122,7 @@ section {
 }
 
 #s3 {
-    background: url(../images/massage.gif) no-repeat fixed center center;
+    background: url("https://i.imgur.com/hDaM9Hw.gif") no-repeat fixed center center;
     background-size: cover;
 }
 
