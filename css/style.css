@@ -61,7 +61,7 @@ nav {
 	width: 100%;
 }
 
-a:link {
+.pink-btn {
 	color: rgb(255, 255, 255);
 	display: inline-block;
 	padding: 10px 40px;
@@ -71,11 +71,12 @@ a:link {
 	text-transform: uppercase;
 	margin-left: 40px;
 	margin-right: 40px;
+	
 }
 
 
 
-a:hover {
+a.pink-btn:hover {
 	background-color: #F5FF61;
 }
 
@@ -126,8 +127,48 @@ section {
     background-size: cover;
 }
 
+
 #s4 {
-	background-color:#fff;
 	background-size: cover;
+	background-color:#fff;
 	text-align: right;
+}
+
+#s5 {
+	background-size: cover;
+	background-color:#fff;
+	text-align: center;
+	
+}
+
+#s6 {
+    background: url("https://media.giphy.com/media/6Fr7FIFGYfl9S/giphy.gif") no-repeat fixed center center;
+	background-size: cover;
+	padding-top: 240px;
+}
+
+#s7 {
+    background: url("https://media.giphy.com/media/ZIntkvvdoCmYM/giphy.gif") no-repeat fixed center center;
+	background-size: cover;
+	padding-top: 240px;
+}
+
+.glued-text {
+text-align: right;
+justify-content: right;
+font-size: 160px;
+color: #23FF00;
+margin-right: 50px;
+}
+
+.work {
+	text-align: center;
+	padding-left: 300px;
+	font-size: 34pt;
+	color: rgb(0, 0, 0);
+
+}
+
+a.work:hover {
+color: #F5FF61;
 }
