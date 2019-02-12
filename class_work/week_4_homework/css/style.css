@@ -1,0 +1,101 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	color: white;
+	font-family: 'Open Sans';
+}
+
+
+body {
+	background-color: lightsteelblue
+
+}
+
+header {
+		/* border: solid; */
+		padding: 0px;
+		text-align: center
+		
+}
+
+header h1 {
+	font-size: 72px;
+	text-transform: capitalize
+}
+
+header h2 {
+	font-family: 'Open Sans';
+	text-transform: lowercase;
+	padding: 20px;
+	margin-bottom: 20px;
+
+}
+
+p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+nav {
+	background-color:darkslategray;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+a:link {
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color:darkslategray;
+	text-transform: uppercase;
+}
+
+
+a:visited {
+	color: azure;
+}
+
+a:hover {
+	background-color: darkgray;
+}
+
+a:active {
+	color: darkslategray;
+}
+
+article {
+	padding: 30px;
+}
+
+article h1 {
+font-size: 42px
+}
+
+figure {
+	margin-bottom: 20px;
+}
+
+p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+footer {
+	padding: 20px;
+	background-color: darkslategray;
+	text-align: center;
+	margin-top: 40px
+
+}
+
+footer p {
+
+}
+
+li {
+	padding: 15px;
+	
+	
+}

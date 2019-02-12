@@ -1,0 +1,128 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	color: white;
+	font-family: 'Open Sans';
+
+}
+
+body {
+	background-color: lightsteelblue;
+	font-family: 'Open Sans';
+	width: 100wh;
+	height: 90vh;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+header {
+		/* border: solid; */
+		padding: 40px;
+		text-align: center
+		
+}
+
+header h1 {
+	font-size: 72px;
+	text-transform: capitalize
+}
+
+header h2 {
+	font-family: 'Open Sans';
+	text-transform: lowercase
+
+}
+
+nav {
+	background-color:darkslategray;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+a:link {
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color:darkslategray;
+	text-transform: uppercase;
+}
+
+a:visited {
+	color: azure;
+}
+
+a:hover {
+	background-color: darkgray;
+}
+
+a:active {
+	color: darkslategray;
+}
+
+article {
+	padding: 30px;
+}
+
+article h1 {
+font-size: 42px
+}
+
+figure {
+	margin-bottom: 20px;
+}
+
+p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+footer {
+	padding: 30px;
+	background-color: darkslategray;
+
+}
+
+footer p {
+
+}
