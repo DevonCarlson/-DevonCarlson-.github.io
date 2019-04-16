@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+#background {
+    background: url(../images/scene1.svg) center center;
+    background-size: cover;
+}
+
+/* POLAR BEAR EYES */
+
+#eyes{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.blink{
+    animation: 2s ease 0s normal forwards 1 blink;
+}
+
+@keyframes blink{
+    0% { scale:5%; }
+    66% { scale:60%; }
+    100% { scale:1; }
+  }
+
+/* DOWN ARROW ANIMATION */
+.down-arrow{
+    width: 50px;
+    position: absolute;
+    bottom: 50px;
+    right:45%;
+}
+
+
+#arrowfadein {
+  animation: 10s ease 0s normal forwards 1 arrowfadein;
+}
+
+@keyframes arrowfadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+
+.down-arrow {
+    animation: MoveUpDown 1.7s linear infinite;
+    animation-delay: 10s;
+  }
+  
+  @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 10;
+      opacity: 100%;
+    }
+    50% {
+      bottom: 80px;
+    }
+  }
+
+/* INITIAL TEXT */
+.alaska{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 250px;
+}
+
+#alaskafadein {
+    animation: 2s ease 0s normal forwards 1 alaskafadein;
+  }
+  
+  @keyframes alaskafadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+  }
+  
+  
+.firstdate{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    color: white;
+    position: absolute;
+    top: 200px;
+    left: 49%;
+}
+
+#firstdatefadein {
+    animation: 7s ease 0s normal forwards 1 firstdatefadein;
+  }
+  
+  @keyframes firstdatefadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+  }
+
+
+
+
+
+.left_icefloat{
+  width: 47.074122236671%;
+  height: 35.5452971725332%;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+
+.right_icefloat{
+  width: 31.5019505851756%;
+  height: 38.5458742065782%;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+.left_iceberg{
+  width: 26.25%;
+  height: 11.4252740911714%;
+  position: absolute;
+  bottom:51.5291402192729%;
+  left:0;
+}
+
+.right_iceberg{
+  width: 27.8283485045514%;
+  height: 13.8488170802077%;
+  position: absolute;
+  bottom:51.5291402192729%;
+  right:0;
+}
+
+.sun{
+  width: 09.2327698309493%;
+  height: 16.3877668782458%;
+  position: absolute;
+  top: 07.9053664166186%;
+  right: 06.5019505851756%;
+}
+
+/* .bear1 {
+  z-index: 5;
+  width: 459px;
+  height: 393px;
+  top: 30%;
+  left: 30%;
+  margin: 2% auto;
+  background: url('img/bear_walk_right.svg') left center;
+  animation: blink .5s steps(16) infinite;
+}
+
+@keyframes blink {
+	5%, 100% { background-position: -7344px; }
+} */

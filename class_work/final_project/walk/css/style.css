@@ -1,0 +1,18 @@
+body {
+  background: #24aecd;
+}
+
+.monster {
+  width: 455px;
+  height: 389px;
+  margin: 1% ;
+  /* animation: play .7s steps(5) infinite 2s; */
+}
+
+
+.walk {
+  animation: play .7s steps(5) infinite 2s;
+}
+@keyframes play {
+	100% { background-position: -2295px; }
+}
