@@ -2,47 +2,375 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>dart349 Day4 homework</title>
+    <title>Polar Bears and Climate Change</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
-
 
 </head>
-
 <body>
 
-    <section id="s1">
-        <article>
-            <header class="text-position">    
-                <h1>Devon Carlson</h1>
-                <h2>what's his deal?</h2>
-                
-                        <a href="index" class="pink-btn">About Me</a>
-                        <a href="exercises" class="pink-btn">Exercises</a>
-                        <a href="projects" class="pink-btn">Projects</a>
+<div id="mobile"></div>
+<h1 id="pleasedesktop">Please view on a larger device :)</h1>
 
-            </header>
-        </article>
-    </section>
-    <section id="s2">
-        
-    <h1 class="description">hi guys</h1>
-    <h2 class="description">i've created a digital experience</h2>
-    <h3 class="description">that makes ppl uncomfortable</h3>
+    <section id="background">
+
+    <figure id="b1">
+        <div id="bear1"></div>
+        <div id="bear_walking_left"></div>
+    </figure>
+
+    <figure id="b2">  
+        <div id="bear2"></div>
+        <div id="bear_walking_left2"></div>
+    </figure>
+
+    <figure id="b3">
+        <div id="bear3"></div>
+        <div id="bear_walking_right"></div>
+    </figure>
+
+    <figure id="b4">
+        <div id="bear4"></div>
+        <div id="baby_walk"></div>
+    </figure>
 
 
-        
+
+
+
+        <img id="left_icefloat" src="images/left_icefloat.svg" alt="left ice float">
+
+        <img id="right_icefloat" src="images/right_icefloat.svg" alt="right ice float">
+
+        <img id="left_iceberg" src="images/left_iceberg.svg" alt="left ice berg">
+        <img id="small_iceberg" src="images/small_iceberg.svg" alt="small ice berg">
+
+        <img id="sad_bear" src="images/sad_bear.svg" alt="sad bear">
+
+
+        <img id="right_iceberg" src="images/right_iceberg.svg" alt="right ice berg">
+
+        <img id="sun" src="images/sun.svg" alt="sun">
+
+        <div id="trash1fadein">
+        <img id="trash_can" src="images/trash1.svg" alt="can trash">
+        </div>
+
+        <div id="trash2fadein">
+            <img id="trash_cup" src="images/trash2.svg" alt="plastic cup trash">
+            </div>
+
+        <div id="alaskafadein">   
+            <h1 class="alaska">Alaska</h1>
+        </div>
+
+        <div id="firstdatefadein">
+            <h2 class="firstdate">1932</h2>
+        </div>
+
+        <div id="seconddatefadein">
+            <h2 id="seconddate">2030</h2>
+        </div>
+
+
+
+    <div class="buttonposition">
+        <div id="button1" onclick="openNav()">next</div>
+        <div id="button2" onclick="open2()">next</div>
+        <div id="button3" onclick="open3()">next</div>
+        <div id="button4" onclick="open4()">next</div>
+        <div id="button5" onclick="open5()">next</div>
+        <div id="button6" onclick="open6()">next</div>
+        <div id="button7" onclick="open7()">next</div>
+        <div id="button8" onclick="open8()">next</div>
+        <div id="button9" onclick="open9()">next</div>
+        <div id="button10" onclick="open10()">next</div>
+
+    </div>
+
+        <div class="textblocks">
+        <div class="text1" id="text1">
+            <article>
+                <h1>In case you were not aware,</h1>
+                <p> polar bears are incredibly beautiful creatures. Entirely unique in their appearance, 
+                    there are no other animals quite like them. Weighing in at around 772 to 1,543 lb they 
+                    are very large creatures, who through evolution have been designed to withstand the 
+                    incredibly low temperatures that they face in their habitats (Carl). The polar bear 
+                    mostly resides in the Arctic Circle, the Arctic Ocean, the Arctic Ocean’s neighboring 
+                    seas, as well as the surrounding land masses (Carl). There is a very common theme 
+                    amongst these places, and that is...</p>
+            </article>
+        </div>
+
+        <div class="text2"  id="text2">
+            <article>
+                <h1>that polar bears love the cold.</h1>
+                <p>Similar to other mammals at the top of their respective food chains, polar 
+                        bears have a very low reproductive rate. Polar bears only tend to give birth 
+                        to one or two cubs every three years or so and even then, polar bears don’t 
+                        begin to reproduce until they are at least five or six years old (WWF). Once 
+                        polar bear cubs are ready to leave the den, their mother will take them out to 
+                        floating sea ice in order to teach them how to hunt seals. These seals (and 
+                        therefore the floating ice that they come up onto) are absolutely critical for the 
+                        viability of polar bears as a species (WWF). These seals that they hunt provide the 
+                        mama polar bears and their cubs with sufficient fat to survive seasons when seals 
+                        are not readily available. When polar bears find themselves in these seasons they are 
+                        faced with long periods of fasting, and fewer and smaller baby cubs (Sterling).
+                </p>
+            </article>
+         </div>
+
+        <div class="text3"  id="text3">
+            <article>
+                <h1>Photos have recently surfaced</h1>
+                <p>of shockingly skinny polar bears that are clearly being deprived of food, 
+                            and they are quite hard to look at. It’s really quite tragic (CBC). This, 
+                            coupled with the fact that polar bear populations are on the decline is 
+                            incredibly concerning. In a study conducted in 2016 by Trent University, 
+                            it was reported that polar bear populations have declined by nearly a fifth 
+                            compared to an original study in 2011 (Trent University). That’s a 17% drop 
+                            in only five years, which I believe to be a huge cause for concern. The point 
+                            that I would like to illustrate here is that polar bear populations are 
+                            extremely sensitive to change, and they require a very particular set of 
+                            circumstances to thrive and flourish as a species. With polar bear populations 
+                            on the decline, this is beginning to put them in an incredibly vulnerable 
+                            position.
+                </p>
+                <figure>
+                    <img src="images/skinny_bear.png" alt="Skinny polar bear">
+                </figure>
+            </article>
+        </div>
     
+        <div class="text4" id="text4">
+            <article>
+                <h1>In many languages</h1>
+                <p>polar bears are suitably referred to as “ice bears”, as ice is such a key 
+                                component and factor in a polar bear’s livelihood (WWF). Unfortunately, 
+                                these patches of sea ice are disappearing (Hansen). According to a study 
+                                published in the Atmospheric Chemistry and Physics journal, arctic ice is 
+                                beginning to melt nearly twice as fast at it should be, due largely in part 
+                                to rising Co2 levels that humans have been polluting our atmosphere with 
+                                (NASA). These changes are largely causing this tragic influx of bears, as 
+                                the Russian branch of the World Wildlife Fund claims blames climate change 
+                                for the drastic change in bear populations, as smaller ice caps means less 
+                                opportunity for polar bears to hunt seals for food (WWF). This in turn is...
+                </p>
+            </article>
+        </div>
+
+        <div class="text5" id="text5">
+            <article>
+                <h1>causing polar bears to search elsewhere for food.</h1>
+                    <p>The northern Russian town of Belushya Guba, also known as 
+                        Sturgeon Bay, is a military community of just over 2000 people. 
+                        This past week the city’s declared a state of emergency, as several 
+                        dozen polar bear families have made their way into the town, making 
+                        themselves at home. The bears have been seen digging through dumpsters 
+                        and investigating people’s homes, scavenging for food (Brown). The 
+                        city has declared this as a full-blown occupation and is currently at a 
+                        loss as to what they can do to deal with this problem.</p>
+            </article>
+        </div>
+
+        <div class="text6"  id="text6">
+                <article>
+                    <h1>This begs the question:</h1>
+                        <p>What can be done to stop this? As various human activities have 
+                            had detrimental effects on other animal species, we’ve often times 
+                            tired various conversation efforts to reverse these effects. Sometimes 
+                            successfully, other times unsuccessfully (Indiana University). One of the 
+                            biggest impacts that we can make it reduce our carbon footprint, and in 
+                            turn make an effort to emit way less C02 into the Earth’s atmosphere. A 
+                            great number of people seem to drive their own personal gas-powered vehicles 
+                            to work every day while many of them could easily take public transit instead, 
+                            residing their impact on the atmosphere. The United States Environmental 
+                            Protection Agency claims that “A typical passenger vehicle emits about 4.6 
+                            metric tons of carbon dioxide per year” (EPA). This is staggering when you 
+                            consider the sheer amount of cars you see on the road on any given day. 
+                            Instead of driving to work every day, why not consider taking public transit? 
+                            Doing so can even have several additional benefits such as saving individuals 
+                            money wasted on gasoline and parking. When the weather is nice during the summer, 
+                            why not ride a bike? Biking to work every day has even reportedly saved individuals 
+                            thousands of dollars a year (CNBC).</p>
+                </article>
+            </div>
+
+            <div class="text7"  id="text7">
+                    <article>
+                        <h1>Greener forms of transportation</h1>
+                            <p>are becoming more and more viable, as innovative new options 
+                                to move from place to place are becoming much more commonplace. 
+                                The new baseline price of the Tesla Model 3 electric car is only 
+                                thirty-five thousand dollars, which is quite affordable all things 
+                                considered. It has an EPA-rated mileage of 220 miles on a single 
+                                charge, making it more than capable of replacing most traditional 
+                                vehicles or personal transport (Sendy). Telsa has even begun the development 
+                                and production of what they are calling Solar Roof, seamlessly-traditional 
+                                looking roof panels that actually work as fully functioning solar panels. 
+                                These are being developed as a means to eventually replace traditional means 
+                                of powering one’s home, leading to net-zero solar electricity and the 
+                                drastically reduced carbon footprint of households (Tesla). On top of rethinking how you commute... 
+                                </p>
+                    </article>
+                </div>
+
+                <div class="text8"  id="text8">
+                        <article>
+                            <h1>there are numerous other ways</h1>
+                                <p>one can help save the polar bears by reducing 
+                                    their carbon footprint. According to a series of 
+                                    studies conducted by the United Nations University, 
+                                    the simple most significant way one can reduce their 
+                                    carbon footprint is by reducing or eliminating farmed meat 
+                                    from their diets (Carrington). According to the United Nations
+                                     University “Emissions from livestock, largely from burping cows
+                                      and sheep and their manure, currently, make up almost 15% of 
+                                      global emissions. Beef and dairy alone make up 65% of all livestock
+                                       emissions” (UNU). Not only could reducing consumption be good 
+                                       for your health, but it can also be good for the livelihood of 
+                                       polar bears.
+                                    </p>
+                        </article>
+                    </div>
+
+                    <div class="text9"  id="text9">
+                            <article>
+                                <h1>One of the most tragic things</h1>
+                                    <p>about humanity as a whole is that by nature, it seems like 
+                                        we are a generally selfish species. Most of us know that our 
+                                        actions are causing detrimental effects on the planet, but many
+                                         of us are resistant or stubborn to change. It seems like many
+                                          of us put our own desires above caring for the collective good 
+                                          of our planet, and this is bad news for polar bears. If serious 
+                                          actions are not taken soon, we very well might live a future in
+                                           which polar bears no longer exists. It would be a shame for 
+                                           such a beautiful species to go the way of the dodo, to no fault 
+                                           of their own. Hopefully, we find a way to reverse the direction
+                                            that climate change is taking, or else this soon might be the
+                                            case.
+                                        </p>
+                            </article>
+                        </div>
+
+        </div>
+
     </section>
-    <section id="s3"></section>
+
+    <script>
+            function openNav() {
+                document.getElementById("text1").style.left = "0%";
+                document.getElementById("button1").style.display= "none";
+                document.getElementById("firstdatefadein").style.display= "none";
+                document.getElementById("alaskafadein").style.display= "none";
+                document.getElementById("button2").style.display= "block";
+            }
 
 
-        <!-- <nav>
-           <a href="index.html">The Arctic Circle</a>
-            <a href="polarbears.html">Polar Bears test</a>
-            <a href="climate.html">Climate Change test</a>
-        </nav>-->
+            function open2() {
+                document.getElementById("text1").style.left = "-150%";
+                document.getElementById("text2").style.left = "0%";
+                document.getElementById("button2").style.display= "none";
+                document.getElementById("button3").style.display= "block";
+            }
 
+            function open3() {
+                document.getElementById("text2").style.left = "-150%";
+                document.getElementById("text3").style.left = "0%";
+                document.getElementById("button3").style.display= "none";
+                document.getElementById("button4").style.display= "block";
+            }
+
+            function open4() {
+                document.getElementById("text3").style.left = "-150%";
+                document.getElementById("text4").style.left = "0%";
+                document.getElementById("button4").style.display= "none";
+                document.getElementById("button5").style.display= "block";
+            }
+
+            function open5() {
+                document.getElementById("text4").style.left = "-150%";
+                document.getElementById("text5").style.left = "0%";
+                document.getElementById("button5").style.display= "none";
+                document.getElementById("button6").style.display= "block";
+            }
+
+            function open6() {
+                document.getElementById("text5").style.left = "-150%";
+                document.getElementById("text6").style.left = "0%";
+                document.getElementById("button6").style.display= "none";
+                document.getElementById("button7").style.display= "block";
+            }
+
+            function open7() {
+                document.getElementById("text6").style.left = "-150%";
+                document.getElementById("text7").style.left = "0%";
+                document.getElementById("button7").style.display= "none";
+                document.getElementById("button8").style.display= "block";
+            }
+
+            function open8() {
+                document.getElementById("text7").style.left = "-150%";
+                document.getElementById("text8").style.left = "0%";
+                document.getElementById("button8").style.display= "none";
+                document.getElementById("button9").style.display= "block";
+            }
+
+            function open9() {
+                document.getElementById("text8").style.left = "-150%";
+                document.getElementById("text9").style.left = "0%";
+                document.getElementById("button9").style.display= "none";
+                document.getElementById("button10").style.display= "block";
+            }
+
+                function open10() {
+                document.getElementById("button10").style.display= "none";
+                document.getElementById("text9").style.left = "-150%";
+
+
+                document.getElementById("seconddate").style.display= "block";
+                document.getElementById("alaskafadein").style.display= "block";
+
+                document.getElementById("trash_cup").style.left = "35%";
+                document.getElementById("trash_cup").style.bottom = "14%";
+
+                document.getElementById("trash_can").style.left = "15%";
+                document.getElementById("trash_can").style.bottom = "26%";
+
+
+
+                document.getElementById("small_iceberg").style.left = "10%";
+                document.getElementById("left_iceberg").style.left = "-150%";
+                document.getElementById("right_iceberg").style.right = "-150%";
+                document.getElementById("left_icefloat").style.left = "-150%";
+                document.getElementById("right_icefloat").style.right = "-150%";
+                document.getElementById("sun").style.width = "12.92587776332902%";
+                document.getElementById("sun").style.height = "22.94287362954412%";
+                document.getElementById("left_iceberg").style.left = "-150%";
+                document.getElementById("sad_bear").style.left = "60%";
+                document.getElementById("sad_bear").style.bottom = "14%";
+                document.getElementById("background").style.backgroundImage = "url(./images/scene2.svg)";
+
+
+
+                document.getElementById("bear1").style.display = "none";
+                document.getElementById("bear_walking_left").style.display = "block";
+                document.getElementById("b1").style.left = "-15%";
+
+                document.getElementById("bear2").style.display = "none";
+                document.getElementById("bear_walking_left2").style.display = "block";
+                document.getElementById("b2").style.left = "-15%";
+
+                document.getElementById("bear3").style.display = "none";
+                document.getElementById("bear_walking_right").style.display = "block";
+                document.getElementById("b3").style.right = "-17%";
+
+                document.getElementById("bear4").style.display = "none";
+                document.getElementById("baby_walk").style.display = "block";
+                document.getElementById("b4").style.right = "-15%";
+            }
+
+   
+    </script>
 
 </body>
 </html>
