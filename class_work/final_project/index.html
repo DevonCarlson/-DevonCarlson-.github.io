@@ -84,6 +84,17 @@
         <div id="button8" onclick="open8()">next</div>
         <div id="button9" onclick="open9()">next</div>
         <div id="button10" onclick="open10()">next</div>
+    </div>
+
+    <div class="closebuttons">
+        <div id="close1" onclick="close1()">back</div>
+        <div id="close2" onclick="close2()">back</div>
+        <div id="close3" onclick="close3()">back</div>
+        <div id="close4" onclick="close4()">back</div>
+        <div id="close5" onclick="close5()">back</div>
+        <div id="close6" onclick="close6()">back</div>
+        <div id="close7" onclick="close7()">back</div>
+        <div id="close8" onclick="close8()">back</div>
 
     </div>
 
@@ -271,6 +282,9 @@
                 document.getElementById("text2").style.left = "0%";
                 document.getElementById("button2").style.display= "none";
                 document.getElementById("button3").style.display= "block";
+
+                document.getElementById("close1").style.display= "block";
+
             }
 
             function open3() {
@@ -278,6 +292,17 @@
                 document.getElementById("text3").style.left = "0%";
                 document.getElementById("button3").style.display= "none";
                 document.getElementById("button4").style.display= "block";
+
+                document.getElementById("close1").style.display= "none";
+                document.getElementById("close2").style.display= "block";
+            }
+
+            function close1() {
+                document.getElementById("text1").style.left = "0%";
+                document.getElementById("text2").style.left = "150%";
+                document.getElementById("button2").style.display= "block";
+                document.getElementById("button3").style.display= "none";
+                document.getElementById("close1").style.display= "none";
             }
 
             function open4() {
@@ -285,6 +310,19 @@
                 document.getElementById("text4").style.left = "0%";
                 document.getElementById("button4").style.display= "none";
                 document.getElementById("button5").style.display= "block";
+
+                document.getElementById("close2").style.display= "none";
+                document.getElementById("close3").style.display= "block";
+            }
+
+            function close2() {
+                document.getElementById("text2").style.left = "0%";
+                document.getElementById("text3").style.left = "150%";
+                document.getElementById("button3").style.display= "block";
+                document.getElementById("button4").style.display= "none";
+                document.getElementById("close2").style.display= "none";
+                document.getElementById("close1").style.display= "block";
+
             }
 
             function open5() {
@@ -292,6 +330,19 @@
                 document.getElementById("text5").style.left = "0%";
                 document.getElementById("button5").style.display= "none";
                 document.getElementById("button6").style.display= "block";
+
+                document.getElementById("close3").style.display= "none";
+                document.getElementById("close4").style.display= "block";
+            }
+
+            function close3() {
+                document.getElementById("text3").style.left = "0%";
+                document.getElementById("text4").style.left = "150%";
+                document.getElementById("button4").style.display= "block";
+                document.getElementById("button5").style.display= "none";
+                document.getElementById("close3").style.display= "none";
+                document.getElementById("close2").style.display= "block";
+
             }
 
             function open6() {
@@ -299,6 +350,19 @@
                 document.getElementById("text6").style.left = "0%";
                 document.getElementById("button6").style.display= "none";
                 document.getElementById("button7").style.display= "block";
+
+                document.getElementById("close4").style.display= "none";
+                document.getElementById("close5").style.display= "block";
+            }
+
+            function close4() {
+                document.getElementById("text4").style.left = "0%";
+                document.getElementById("text5").style.left = "150%";
+                document.getElementById("button5").style.display= "block";
+                document.getElementById("button6").style.display= "none";
+                document.getElementById("close4").style.display= "none";
+                document.getElementById("close3").style.display= "block";
+
             }
 
             function open7() {
@@ -306,6 +370,19 @@
                 document.getElementById("text7").style.left = "0%";
                 document.getElementById("button7").style.display= "none";
                 document.getElementById("button8").style.display= "block";
+
+                document.getElementById("close5").style.display= "none";
+                document.getElementById("close6").style.display= "block";
+            }
+
+            function close5() {
+                document.getElementById("text5").style.left = "0%";
+                document.getElementById("text6").style.left = "150%";
+                document.getElementById("button6").style.display= "block";
+                document.getElementById("button7").style.display= "none";
+                document.getElementById("close5").style.display= "none";
+                document.getElementById("close4").style.display= "block";
+
             }
 
             function open8() {
@@ -313,6 +390,19 @@
                 document.getElementById("text8").style.left = "0%";
                 document.getElementById("button8").style.display= "none";
                 document.getElementById("button9").style.display= "block";
+
+                document.getElementById("close6").style.display= "none";
+                document.getElementById("close7").style.display= "block";
+            }
+
+            function close6() {
+                document.getElementById("text6").style.left = "0%";
+                document.getElementById("text7").style.left = "150%";
+                document.getElementById("button7").style.display= "block";
+                document.getElementById("button8").style.display= "none";
+                document.getElementById("close6").style.display= "none";
+                document.getElementById("close5").style.display= "block";
+
             }
 
             function open9() {
@@ -320,9 +410,38 @@
                 document.getElementById("text9").style.left = "0%";
                 document.getElementById("button9").style.display= "none";
                 document.getElementById("button10").style.display= "block";
+
+                document.getElementById("close7").style.display= "none";
+                document.getElementById("close8").style.display= "block";
             }
 
+            function close7() {
+                document.getElementById("text7").style.left = "0%";
+                document.getElementById("text8").style.left = "150%";
+                document.getElementById("button8").style.display= "block";
+                document.getElementById("button9").style.display= "none";
+                document.getElementById("close7").style.display= "none";
+                document.getElementById("close6").style.display= "block";
+
+            }
+
+            function close8() {
+                document.getElementById("text8").style.left = "0%";
+                document.getElementById("text9").style.left = "150%";
+                document.getElementById("button9").style.display= "block";
+                document.getElementById("button10").style.display= "none";
+                document.getElementById("close8").style.display= "none";
+                document.getElementById("close7").style.display= "block";
+
+            }
+
+
+
                 function open10() {
+
+                    document.getElementById("close8").style.display= "none";
+
+
                 document.getElementById("button10").style.display= "none";
                 document.getElementById("text9").style.left = "-150%";
 
