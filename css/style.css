@@ -158,6 +158,9 @@ nav{
   align-content: center;
 }
 
+#myVideo {
+  display: none;
+}
 
 }
 
