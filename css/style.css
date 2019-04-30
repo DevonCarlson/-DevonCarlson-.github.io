@@ -147,12 +147,13 @@ nav{
   
   nav{
     padding-bottom: 0px;
-    position: sticky;
+    position: fixed;
 
 }
 
 .nav-bar {
     padding-top: 13px;
+    position: fixed;
 }
 
 .topnav #myLinks {
@@ -165,7 +166,7 @@ nav{
 }
 
 .topnav{
-  position: sticky;
+  position: fixed;
 }
 
 }
