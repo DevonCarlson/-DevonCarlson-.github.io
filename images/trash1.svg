@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="445px" height="448px" viewBox="0 0 445 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 42</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-42" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="445" height="448"></rect>
+            <g id="Group-40" transform="translate(118.000000, 23.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" fill="#D6D6D6" x="22" y="135" width="159" height="255"></rect>
+                <rect id="Rectangle" fill="#D25151" x="21" y="193" width="161" height="146"></rect>
+                <polygon id="Triangle" fill="#FFF245" points="101.5 231 152 294 51 294"></polygon>
+                <ellipse id="Oval" stroke="#979797" fill="#646464" cx="101.5" cy="133" rx="80.5" ry="16"></ellipse>
+                <ellipse id="Oval" stroke="#979797" stroke-width="2" fill="#D8D8D8" cx="22" cy="67.5" rx="22" ry="67.5"></ellipse>
+                <ellipse id="Oval" stroke="#B5B5B5" stroke-width="1.5" cx="20" cy="68" rx="16" ry="53"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

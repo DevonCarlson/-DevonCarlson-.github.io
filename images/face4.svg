@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="890px" height="780px" viewBox="0 0 890 780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>face4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M778.254287,127.340206 L878,127.340206 L439,772 L0,127.340206 L99.7457131,127.340206 C97.1653205,118.501232 95.7818182,109.153985 95.7818182,99.4845361 C95.7818182,44.540744 140.45159,0 195.554545,0 C250.657501,0 295.327273,44.540744 295.327273,99.4845361 C295.327273,109.153985 293.94377,118.501232 291.363378,127.340206 L586.636622,127.340206 C584.05623,118.501232 582.672727,109.153985 582.672727,99.4845361 C582.672727,44.540744 627.342499,0 682.445455,0 C737.54841,0 782.218182,44.540744 782.218182,99.4845361 C782.218182,109.153985 780.834679,118.501232 778.254287,127.340206 Z" id="path-1"></path>
+        <filter x="-0.8%" y="-0.6%" width="101.6%" height="101.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="face4" transform="translate(6.000000, 3.000000)" fill-rule="nonzero">
+            <g id="Combined-Shape">
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#5C5C5C" stroke-width="5.5" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Triangle-Copy" fill="#5C5C5C" points="435 549 364 446 506 446"></polygon>
+            <path d="M307,245.357143 L307,328" id="Line-Copy-2" stroke="#5C5C5C" stroke-width="13" stroke-linecap="square"></path>
+            <path d="M553,245.357143 L553,328" id="Line-Copy" stroke="#5C5C5C" stroke-width="13" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

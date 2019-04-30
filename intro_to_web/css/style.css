@@ -1,0 +1,174 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+body {
+	background-color: #4F14CF;
+}
+
+header {
+		font-weight: bolder;
+}
+
+header h1 {
+	font-size: 72px;
+	text-transform: capitalize
+}
+
+.text-position {
+
+padding-top: 170px;
+background-color: #4F14CF;
+width: 300px;
+height: 2000px;
+text-align: center;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+article {
+	position: fixed;
+}
+
+article a {
+	margin-top: 20px;
+}
+
+header h2 {
+	text-transform: lowercase;
+	padding-top: 20px;;
+	margin-bottom: 20px;
+}
+
+p {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+nav {
+	color: #fff;
+	font-style: unset;
+	padding-bottom: 33px;
+	text-align: left;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.pink-btn {
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	padding: 10px 40px;
+	border-radius: 25px;
+	text-decoration: none;
+	background-color:#fa67a2;
+	text-transform: uppercase;
+	margin-left: 40px;
+	margin-right: 40px;
+	
+}
+
+
+
+a.pink-btn:hover {
+	background-color: #F5FF61;
+}
+
+a:active {
+	color: darkslategray;
+}
+
+
+p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.description {
+	text-align: center;
+	padding-left: 300px;
+	padding-top: 250px;
+	font-size: 26pt;
+	color: #fff;
+	
+}
+
+html, body {
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#s1 {
+    background: url("https://i.imgur.com/QRrXUv1.gif") no-repeat fixed center center;
+    background-size: cover;
+}
+
+#s2 {
+	background-color:#23FF00;
+	background-size: cover;
+	text-align: right;
+}
+
+#s3 {
+    background: url("https://i.imgur.com/hDaM9Hw.gif") no-repeat fixed center center;
+    background-size: cover;
+}
+
+
+#s4 {
+	background-size: cover;
+	background-color:#fff;
+	text-align: right;
+}
+
+#s5 {
+	background-size: cover;
+	background-color:#fff;
+	text-align: center;
+	
+}
+
+#s6 {
+    background: url("https://media.giphy.com/media/6Fr7FIFGYfl9S/giphy.gif") no-repeat fixed center center;
+	background-size: cover;
+	padding-top: 240px;
+}
+
+#s7 {
+    background: url("https://media.giphy.com/media/ZIntkvvdoCmYM/giphy.gif") no-repeat fixed center center;
+	background-size: cover;
+	padding-top: 240px;
+}
+
+.glued-text {
+text-align: right;
+justify-content: right;
+font-size: 160px;
+color: #23FF00;
+margin-right: 50px;
+}
+
+.work {
+	text-align: center;
+	padding-left: 300px;
+	font-size: 34pt;
+	color: rgb(0, 0, 0);
+
+}
+
+a.work:hover {
+color: #F5FF61;
+}
