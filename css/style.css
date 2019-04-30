@@ -147,6 +147,8 @@ nav{
   
   nav{
     padding-bottom: 0px;
+    position: sticky;
+
 }
 
 .nav-bar {
@@ -160,6 +162,10 @@ nav{
 
 #myVideo {
   display: none;
+}
+
+.topnav{
+  position: sticky;
 }
 
 }
