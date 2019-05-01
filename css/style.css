@@ -1189,6 +1189,28 @@ margin-top: 140px;
   height: auto;
 }
 
+#construction{
+  height: 40%;
+}
+
+#construction article{
+  padding-top: 120px;
+  align-content: center;
+  text-align: center;
+}  
 
 
 
+#construction h1{
+  font-family: 'AvenirNext-DemiBold';
+  font-size: 46px;
+  color: #070707;
+  padding-bottom: 15px;
+}
+
+#construction h2{
+  font-family: 'AvenirNextLTPro-Regular';
+  font-size: 26px;
+  color: #626262;
+  padding-bottom: 25px;
+}
