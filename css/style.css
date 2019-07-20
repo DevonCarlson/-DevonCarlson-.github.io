@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+#bear1 {
+  bottom: 1%;
+  left: -20%;
+  width: 185px;
+  height: 158px;
+  position: absolute;
+  margin: 1%;
+  background: url('../polar_project/images/bear_walking_right.svg') left center;
+  animation: play .5s steps(5) infinite, walk 50s linear  infinite;
+
+}
+@keyframes play {
+  100% { background-position: -930px; }
+}
+
+@keyframes walk {
+  0% {
+      transform: translateX(-20%);
+  }
+  100% {
+      transform: translateX(2300px);
+  }
+}
+
+#bear1 {
+  bottom: 1%;
+  left: -20%;
+  width: 185px;
+  height: 158px;
+  position: absolute;
+  margin: 1%;
+  background: url('../polar_project/images/bear_walking_right.svg') left center;
+  animation: play .5s steps(5) infinite, walk 50s linear  infinite;
+
+}
+@keyframes play {
+  100% { background-position: -930px; }
+}
+
+
+
+
+
+
+#bear_walking_right {
+  width: 698px;
+  height: 598px;
+  background: url('../images/bear_walk_right.svg') left center;
+  animation: walking .7s steps(5) infinite;
+}
+
+@keyframes walking {
+  100% { background-position: -3489px; }
+}
+
+
+#polar6{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-top: 150px;
+}

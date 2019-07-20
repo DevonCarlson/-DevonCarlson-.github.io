@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+	<title>CSS Animation with steps()</title>
+	<link rel="stylesheet" href="css/style.css">
+
+  <style>
+		body {
+		  background: #24aecd;
+		}
+
+		.monster {
+			width: 455px;
+			height: 389px;
+		  margin: 1% ;
+		  background: url('img/bear_walking_right.svg') left center;
+		  animation: play .7s steps(5) infinite;
+		}
+
+		@keyframes play {
+			100% { background-position: -2295px; }
+		}
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="monster"></div>
+  
+  
+
+</body>
+
+</html>
